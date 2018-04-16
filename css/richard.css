@@ -1,0 +1,15 @@
+
+
+*   {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 3em;
+    background-color: #373737;
+}
+
+div {
+    color: darkorange;
+    font-family: "Helvetica Neue";
+}
