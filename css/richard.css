@@ -1,15 +1,30 @@
 
 
 *   {
-    box-sizing: border-box;
 }
 
 body{
-    padding: 3em;
+    padding: 0;
     background-color: #373737;
+    box-sizing: border-box;
 }
 
 div {
     color: darkorange;
     font-family: "Helvetica Neue";
+}
+
+.navbar {
+    background-color: #373740;
+    width: 100%;
+    margin: 0;
+    padding:2em;
+}
+
+.myName {
+    flex-grow: 2;
+}
+
+.nav_item   {
+    flex-grow: 1;
 }

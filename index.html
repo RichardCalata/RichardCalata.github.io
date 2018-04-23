@@ -6,20 +6,54 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
           integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="css/simonStyles.css">
     <link rel="stylesheet" href="css/richard.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
     <title>Welcome</title>
 </head>
 <body>
 
-<div class="header">
-    <h1>Richard Calata</h1>
-    <h2>calatar6@gmail.com</h2>
-    <h2>(210) 906 6007</h2>
+<div class="header navbar navbar-brand navbar-expand flex-column flex-md-row bd-navbar">
+    <h1 class="myName">Richard Calata</h1>
+
+        <h2 class="nav_item">calatar6@gmail.com</h2>
+        <h3 class="nav_item">about</h3>
+
+</div>
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
 </div>
 <div>add content here. This is the second div.</div>
+<!--<img class="img-responsive" src="img/moonFromEarthOrbit.jpg" alt="">-->
 <div>add more content here. This is the third div.</div>
 <div>add even more content here. This is the fourth div.</div>
+
+<div class="second_body">
+    <div>Other Stuff</div>
+    <div>miscellany</div>
+    <div>Sundries</div>
+    <div>What-have-yous</div>
+</div>
 
 <script
         src="https://code.jquery.com/jquery-3.3.1.js"
@@ -28,5 +62,10 @@
 
 </script>
 <script src="js/richard.js"></script>
+<script src="js/bootbox.min.js>"</script>
+
+<script>
+const sayHello = () => console.log("sayHello");
+    </script>
 </body>
 </html>
