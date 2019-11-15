@@ -11,7 +11,7 @@ body{
 
 div {
     color: darkorange;
-    font-family: Helvetica, "Helvetica Neue", san-serif;
+    font-family: "arial","Helvetica", "Helvetica Neue", "sans-serif";
 }
 
 .navbar {
